@@ -100,7 +100,7 @@ Let's start by creating a console application which demonstrates how to use the 
     ```cpp
     if (normalizedResult != NULL)
     {
-        CDocumentNormalizer::SaveImageDataToFile(normalizedResult->image, "result-image.png");
+        CDocumentNormalizer::SaveImageDataToFile(normalizedResult->GetImageData(), "result-image.png");
     }
     ```
 
